@@ -7,3 +7,6 @@ when setting up wireguard on my ubuntu server, I noticed every restart would get
 5. at the bottom of the crontab, enter "@reboot /path to file.sh"
 6. verify the crontab was added to the root user with "sudo crontab -l"
 7. reboot and see if it worked
+
+
+this configures one interface of whatever name and pairs it to some IP
