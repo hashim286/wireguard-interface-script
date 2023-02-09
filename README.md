@@ -4,7 +4,7 @@ when setting up wireguard on my ubuntu server, I noticed every restart would get
 2. make the config files in /etc/wireguard
 3. make the scripts runnable
 4. add to your sudo crontab with "sudo crontab -e" and choose the editor of your choice
-5. at the bottom of the crontab, enter "@reboot /path to file.sh"
+5. at the bottom of the crontab, enter "@reboot /path_to_script.sh"
 6. verify the crontab was added to the root user with "sudo crontab -l"
 7. reboot and see if it worked
 
